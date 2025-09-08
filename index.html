@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Quiz Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌟 Ready to Play?</h1>
+    <p class="subtitle">Join the <span class="highlight">Quiz Challenge</span> and show off your skills!</p>
+
+    <form id="quizForm">
+      <div class="input-group">
+        <label>👤 Your Full Name</label>
+        <input type="text" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="input-group">
+        <label>📧 Email Address</label>
+        <input type="email" name="email" placeholder="your@email.com" required>
+      </div>
+
+      <div class="input-group">
+        <label>📱 Phone Number</label>
+        <input type="tel" name="phone" placeholder="+234 801 234 5678" required>
+      </div>
+
+      <div class="input-group">
+        <label>🎥 TikTok / Instagram Handle</label>
+        <input type="text" name="handle" placeholder="@yourhandle">
+      </div>
+
+      <button type="submit">🚀 Count Me In!</button>
+    </form>
+
+    <div id="successMessage" class="hidden">
+      <h2>✅ You’re In!</h2>
+      <p>Thanks for applying. We’ll reach out if you’re selected. Get ready to shine! 🌟</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
